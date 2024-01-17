@@ -1,0 +1,63 @@
+.MuiButton-root {
+  padding: var(--dr-spacing-2);
+  border-radius: 0.5rem;
+}
+
+.MuiButton-root.primary {
+  // background-image: linear-gradient(
+  //   -10deg,
+  //   var(--dr-quaternary),
+  //   var(--dr-quinary)
+  // );
+  background-color: var(--dr-tertiary);
+}
+
+.MuiButton-root.secondary {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.MuiButton-root.danger {
+  background: var(--dr-danger);
+}
+
+.MuiButton-root.success {
+  background: var(--dr-success);
+  color: var(--dr-primary);
+}
+
+.Mui-active.primary,
+.MuiButton-root.primary:hover {
+  box-shadow: 0 0 5px #ffffff77, -5px 0 20px rgba(255, 0, 255, 0.7),
+    5px 0 20px rgba(0, 255, 255, 0.7);
+  scale: 0.95;
+}
+
+.Mui-active.secondary,
+.MuiButton-root.secondary:hover {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0.2rem var(--dr-font-color),
+    -0.2rem 0 1rem var(--dr-font-color), 0.2rem 0 1rem var(--dr-font-color);
+  scale: 0.95;
+  scale: 0.95;
+}
+
+.Mui-active.success,
+.MuiButton-root.success:hover {
+  box-shadow: 0 0 0.2rem var(--dr-font-color), -0.2rem 0 1rem var(--dr-success),
+    0.2rem 0 1rem var(--dr-success);
+  scale: 0.95;
+}
+
+.Mui-active.danger,
+.MuiButton-root.danger:hover {
+  box-shadow: 0 0 0.2rem var(--dr-danger), -0.2rem 0 1rem var(--dr-danger),
+    0.2rem 0 1rem var(--dr-danger);
+  scale: 0.95;
+}
+
+.Mui-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
