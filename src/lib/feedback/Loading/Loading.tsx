@@ -1,4 +1,4 @@
-import { IfElse } from "../";
+import { IfElse } from "../..";
 import "./Loading.scss";
 
 type TSmallLoader = {

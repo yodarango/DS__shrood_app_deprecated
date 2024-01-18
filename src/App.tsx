@@ -1,6 +1,16 @@
-import { Button, Dropdown, Input, Menu, MenuButton, MenuItem } from "./lib";
+import { Snackbar } from "@mui/base";
+import {
+  Button,
+  Dropdown,
+  Input,
+  Menu,
+  MenuButton,
+  MenuItem,
+  Toast,
+  Avatar,
+  ContentCard,
+} from "./lib";
 import { Thumbnail } from "./lib";
-import { Avatar, ContentCard } from "./lib/dataDisplay";
 
 function App() {
   return (
@@ -38,16 +48,26 @@ function App() {
 
       <ContentCard
         image='https://picsum.photos/200/300'
+        className='mb-4'
         onOpenMenu={() => {}}
         title='My title'
       />
       <ContentCard
         description="This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out!"
         image='https://picsum.photos/200/300'
+        className='mb-4'
         onOpenMenu={() => {}}
         title='My title'
         meta='Selected'
       />
+      <Snackbar
+        autoHideDuration={5000}
+        open={true}
+        onClose={() => {}}
+        exited={false}
+      >
+        <Toast />
+      </Snackbar>
     </main>
   );
 }

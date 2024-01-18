@@ -1,7 +1,19 @@
-.avatar-37gh > div {
-  border-radius: 0.75em;
-}
+.avatar-37gh {
+  cursor: pointer;
 
-.avatar-37gh img {
-  border-radius: 0.75em;
+  &:hover {
+    cursor: pointer;
+  }
+
+  > div {
+    border-radius: 0.75em;
+
+    &:hover {
+      scale: 0.95;
+    }
+
+    img {
+      border-radius: 0.75em;
+    }
+  }
 }
