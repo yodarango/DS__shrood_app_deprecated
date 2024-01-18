@@ -1,4 +1,6 @@
 import { Button, Dropdown, Input, Menu, MenuButton, MenuItem } from "./lib";
+import { Thumbnail } from "./lib";
+import { Avatar, ContentCard } from "./lib/dataDisplay";
 
 function App() {
   return (
@@ -25,6 +27,27 @@ function App() {
           </Menu>
         </Dropdown>
       </div>
+      <div className='mb-4'>
+        <Thumbnail src='https://picsum.photos/200/300' alt='My image' />
+      </div>
+
+      <div className='d-flex align-items-center justify-content-start gap-2 mb-4'>
+        <Avatar image='https://picsum.photos/200/300' />
+        <Avatar image='https://picsum.photos/200/300' label='with username' />
+      </div>
+
+      <ContentCard
+        image='https://picsum.photos/200/300'
+        onOpenMenu={() => {}}
+        title='My title'
+      />
+      <ContentCard
+        description="This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out! This is a description that's a little bit longer than the other one. Check it out!"
+        image='https://picsum.photos/200/300'
+        onOpenMenu={() => {}}
+        title='My title'
+        meta='Selected'
+      />
     </main>
   );
 }

@@ -11,3 +11,4 @@ export * from "./inputs";
 export * from "./feedback";
 export * from "./utils";
 export * from "./navigation";
+export * from "./dataDisplay";
