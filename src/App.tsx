@@ -9,17 +9,23 @@ import {
   Toast,
   Avatar,
   ContentCard,
+  Badge,
+  Modal,
+  Textarea,
+  Switch,
+  Thumbnail,
 } from "./lib";
-import { Thumbnail } from "./lib";
+import { useState } from "react";
 
 function App() {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <main>
       <div
         className='d-flex align-items-center justify-content-start gap-2 mb-4'
         style={{ marginTop: "5rem" }}
       >
-        <Button>Primary default</Button>
+        <Button onClick={() => setOpenModal(true)}>Primary default</Button>
         <Button secondary>Secondary</Button>
         <Button success>Success loading</Button>
         <Button danger>Danger disabled</Button>
@@ -66,8 +72,23 @@ function App() {
         onClose={() => {}}
         exited={false}
       >
-        <Toast />
+        <Toast title='toast with title'>Toast with description </Toast>
       </Snackbar>
+      <Badge badgeContent='100'>
+        <Avatar image='https://picsum.photos/200/300' />
+      </Badge>
+      <Modal
+        open={openModal}
+        title='My modal'
+        onClose={() => {
+          setOpenModal(false);
+        }}
+      >
+        <>this is a modal</>
+      </Modal>
+
+      <Textarea placeholder='My placeholder' bordered />
+      <Switch />
     </main>
   );
 }

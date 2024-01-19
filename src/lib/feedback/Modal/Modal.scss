@@ -1,0 +1,30 @@
+.shrood-modal-0elj {
+  .shrood-modal-0elj__backdrop {
+    z-index: 10;
+    position: fixed;
+    inset: 0;
+    background-color: var(--dr-tridecimal);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .shrood-modal-0elj__content {
+    width: 90%;
+    max-width: 60rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    border-radius: 1em;
+    background-color: var(--dr-primary);
+    position: fixed;
+    z-index: 11;
+    top: calc(20vh);
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: calc(80vh - 2rem);
+    overflow-y: scroll;
+  }
+}

@@ -7,6 +7,7 @@ import "../../../../CDN/app/src/CSS/icons.css";
 export { ClickAwayListener } from "@mui/base/ClickAwayListener";
 export { FormControl } from "@mui/base/FormControl";
 export { Dropdown } from "@mui/base/Dropdown";
+export { Portal } from "@mui/base/Portal";
 export * from "./inputs";
 export * from "./feedback";
 export * from "./utils";
