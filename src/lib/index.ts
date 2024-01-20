@@ -1,5 +1,5 @@
 // remove this two when publishing, they are only for local development
-// they should user the CDN styles
+// they should use the CDN styles
 import "../../../../CDN/app/src/CSS/tokens.css";
 import "../../../../CDN/app/src/CSS/utils.css";
 import "../../../../CDN/app/src/CSS/icons.css";
