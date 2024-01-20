@@ -10,7 +10,7 @@ type TSmallLoader = {
 };
 
 const SmallLoader = ({ duration = 0.6, inline, primary }: TSmallLoader) => {
-  const fill = primary ? `var(--dr-primary)` : `var(--dr-color-alpha)`;
+  const fill = primary ? `var(--dr-beta)` : `var(--dr-color-alpha)`;
   return (
     <div className={`mainWrapper ${inline ? "inline" : ""}`}>
       <div className={"loader"}>

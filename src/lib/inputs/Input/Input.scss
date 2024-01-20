@@ -1,7 +1,7 @@
 .MuiInput-root input {
-  background-color: var(--dr-secondary);
+  background-color: var(--dr-gamma);
   border-radius: 0.5rem;
-  border: 1px solid var(--dr-tertiary);
+  border: 1px solid var(--dr-delta);
   color: var(--dr-color-alpha);
   padding: var(--dr-spacing-2);
   font-family: var(--dr-body-font-family);
@@ -10,8 +10,8 @@
 }
 
 .MuiInput-root.Mui-focused input:focus {
-  box-shadow: 0 0 5px var(--dr-tertiary), -5px 0 20px var(--dr-tertiary),
-    5px 0 20px var(--dr-tertiary);
+  box-shadow: 0 0 5px var(--dr-delta), -5px 0 20px var(--dr-delta),
+    5px 0 20px var(--dr-delta);
 }
 
 .MuiInput-root input::placeholder {

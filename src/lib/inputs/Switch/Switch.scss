@@ -13,8 +13,8 @@
 }
 
 .MuiSwitch-root .MuiSwitch-track {
-  background: var(--dr-tertiary-40); /* Example for light mode */
-  border: 1px solid var(--dr-tertiary); /* Example for light mode */
+  background: var(--dr-delta-40); /* Example for light mode */
+  border: 1px solid var(--dr-delta); /* Example for light mode */
   border-radius: 24px;
   display: block;
   height: 100%;
@@ -55,7 +55,7 @@
 
 .MuiSwitch-root.Mui-checked .MuiSwitch-track {
   border: none;
-  background: var(--dr-tertiary);
+  background: var(--dr-delta);
 }
 
 .MuiSwitch-root .MuiSwitch-input {

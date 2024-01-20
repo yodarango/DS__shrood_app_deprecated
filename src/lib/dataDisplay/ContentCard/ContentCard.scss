@@ -1,14 +1,14 @@
 .content-card-93hx {
-  background: var(--dr-tertiary-20);
+  background: var(--dr-delta-20);
   backdrop-filter: blur(5px);
-  border: 1px solid var(--dr-tertiary);
+  border: 1px solid var(--dr-delta);
   border-radius: 1rem;
   transition: scale 300 ease-in-out;
 
   &:hover {
     scale: 0.99;
-    box-shadow: 0 0 5px var(--dr-quaternary), -5px 0 20px var(--dr-quaternary),
-      5px 0 20px var(--dr-quaternary);
+    box-shadow: 0 0 5px var(--dr-epsilon), -5px 0 20px var(--dr-epsilon),
+      5px 0 20px var(--dr-epsilon);
     // box-shadow: 0 0 5px #ffffff77, -5px 0 20px rgba(255, 0, 255, 0.7),
     //   5px 0 20px rgba(0, 255, 255, 0.7);
   }

@@ -6,10 +6,10 @@
 .MuiButton-root.primary {
   // background-image: linear-gradient(
   //   -10deg,
-  //   var(--dr-quaternary),
-  //   var(--dr-quinary)
+  //   var(--dr-epsilon),
+  //   var(--dr-zeta)
   // );
-  background-color: var(--dr-tertiary);
+  background-color: var(--dr-delta);
 }
 
 .MuiButton-root.secondary {
@@ -24,7 +24,7 @@
 
 .MuiButton-root.success {
   background: var(--dr-success);
-  color: var(--dr-primary);
+  color: var(--dr-beta);
 }
 
 .Mui-active.primary,
