@@ -13,7 +13,7 @@ export const Avatar = (props: Omit<TThumbnail, "src" | "alt"> & IAvatar) => {
   return (
     <div className='avatar-37gh d-flex align-items-center justify-content-start '>
       <div
-        className='d-flex align-items-center justify-content-center bg-tertiary'
+        className='d-flex align-items-center justify-content-center bg-gamma'
         style={{
           width: `${(defaultSize + 5) * 0.1}rem`,
           height: `${(defaultSize + 5) * 0.1}rem`,

@@ -1,7 +1,7 @@
 .textarea-shrood-47ks {
   background-color: var(--dr-secondary);
   border-radius: 1.5rem;
-  color: var(--dr-font-color);
+  color: var(--dr-color-alpha);
   padding: var(--dr-spacing-4);
   font-family: var(--dr-body-font-family);
   font-size: var(--dr-body-font-size);
@@ -22,7 +22,7 @@
 }
 
 .textarea-shrood-47ks::placeholder {
-  color: var(--dr-font-color);
+  color: var(--dr-color-alpha);
   opacity: 0.4;
 }
 

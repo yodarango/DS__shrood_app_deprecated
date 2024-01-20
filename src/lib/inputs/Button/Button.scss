@@ -37,15 +37,15 @@
 .Mui-active.secondary,
 .MuiButton-root.secondary:hover {
   background: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 0 0.2rem var(--dr-font-color),
-    -0.2rem 0 1rem var(--dr-font-color), 0.2rem 0 1rem var(--dr-font-color);
+  box-shadow: 0 0 0.2rem var(--dr-color-alpha),
+    -0.2rem 0 1rem var(--dr-color-alpha), 0.2rem 0 1rem var(--dr-color-alpha);
   scale: 0.95;
   scale: 0.95;
 }
 
 .Mui-active.success,
 .MuiButton-root.success:hover {
-  box-shadow: 0 0 0.2rem var(--dr-font-color), -0.2rem 0 1rem var(--dr-success),
+  box-shadow: 0 0 0.2rem var(--dr-color-alpha), -0.2rem 0 1rem var(--dr-success),
     0.2rem 0 1rem var(--dr-success);
   scale: 0.95;
 }

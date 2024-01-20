@@ -10,7 +10,7 @@ type TSmallLoader = {
 };
 
 const SmallLoader = ({ duration = 0.6, inline, primary }: TSmallLoader) => {
-  const fill = primary ? `var(--dr-primary)` : `var(--dr-font-color)`;
+  const fill = primary ? `var(--dr-primary)` : `var(--dr-color-alpha)`;
   return (
     <div className={`mainWrapper ${inline ? "inline" : ""}`}>
       <div className={"loader"}>
@@ -94,7 +94,7 @@ const SparklesLoader = ({ size, children }: TSparklesLoader) => {
   return (
     <div className='loading-23nxo--sparkles d-flex align-items-center justify-content-center w-100'>
       <div className='d-flex align-items-center justify-content-start flex-column'>
-        <span className='icon icon-sparkles font-color' />
+        <span className='icon icon-sparkles color-alpha' />
         <IfElse condition={typeof children === "string"}>
           <p className='mt-2 text-center loader--label'>{children}</p>
           <div className='mt-2'>{children}</div>

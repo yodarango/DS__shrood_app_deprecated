@@ -22,7 +22,9 @@ export const MenuItem = (props: MenuItemProps & IMenuItem) => {
       {...props}
       className={`${className} d-flex align-items-center justify-content-start w-100 mb-2`}
     >
-      {icon && <span className={`icon icon-${icon} ${iconClass} color-font`} />}
+      {icon && (
+        <span className={`icon icon-${icon} ${iconClass} color-alpha`} />
+      )}
       <div>{children}</div>
     </MMenuItem>
   );

@@ -2,7 +2,7 @@
   background-color: var(--dr-secondary);
   border-radius: 0.5rem;
   border: 1px solid var(--dr-tertiary);
-  color: var(--dr-font-color);
+  color: var(--dr-color-alpha);
   padding: var(--dr-spacing-2);
   font-family: var(--dr-body-font-family);
   font-size: var(--dr-body-font-size);
@@ -15,7 +15,7 @@
 }
 
 .MuiInput-root input::placeholder {
-  color: var(--dr-font-color);
+  color: var(--dr-color-alpha);
   opacity: 0.4;
 }
 

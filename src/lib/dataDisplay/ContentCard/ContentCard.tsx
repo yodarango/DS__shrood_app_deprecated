@@ -40,14 +40,14 @@ export const ContentCard = (props: TContentCard) => {
             )}
           </div>
           {meta && (
-            <div className='content-card-93hx__meta-tag bg-tertiary px-2'>
+            <div className='content-card-93hx__meta-tag bg-gamma px-2'>
               {meta}
             </div>
           )}
         </div>
 
         <div className='d-flex align-items-start justify-content-start flex-shrink-0'>
-          <button onClick={onOpenMenu} className='bg-transparent p-0 m-0'>
+          <button onClick={onOpenMenu} className='bg-nu p-0 m-0'>
             <span className='icon icon-ellipsis' />
           </button>
         </div>
