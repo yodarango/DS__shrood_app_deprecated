@@ -1,4 +1,7 @@
-# Shrood Component Library
+# Shrood Component Library (Deprecated)
+
+## Deprecation Wanrning 🚨
+I no longer maintain this library. It has been rewritten. [Use this one instead]().
 
 ## Background
 
